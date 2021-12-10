@@ -9,7 +9,7 @@ function TaskDetails() {
 
   const params = useParams()
   const navigate = useNavigate()
-  const location = useLocation()
+  const { pathname } = useLocation()
 
   useEffect(() => {
     const fetchTask = async () => {
@@ -31,6 +31,7 @@ function TaskDetails() {
     <h3>Loading...</h3>
   ) : (
     <div>
+      <p>{pathname}</p>
       <h3>{task.text}</h3>
       <p>{task.day}</p>
       <Button
