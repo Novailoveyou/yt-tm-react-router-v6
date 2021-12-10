@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { useParams, Navigate, useNavigate } from 'react-router'
+import { useParams, Navigate, useNavigate, useLocation } from 'react-router'
 import Button from './Button'
 
 function TaskDetails() {
@@ -9,6 +9,7 @@ function TaskDetails() {
 
   const params = useParams()
   const navigate = useNavigate()
+  const location = useLocation()
 
   useEffect(() => {
     const fetchTask = async () => {
