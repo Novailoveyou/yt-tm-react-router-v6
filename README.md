@@ -8,7 +8,14 @@ Year 2021
 
 ## React Router docs
 
-[View React Router docs](https://reactrouter.com/)
+[View React Router docs](https://reactrouter.com/git)
+
+## Recap
+
+- No more Switch, `Switch` has been replaced with `Routes`
+- `component` prop has been changed to `element`
+- `Redirect` no longer exists and has been replaced with `Navigate` and `useNavigate` hook
+- `match` prop isn't available anymore
 
 ## Original readme
 
