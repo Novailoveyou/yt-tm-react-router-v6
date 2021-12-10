@@ -34,7 +34,7 @@ function TaskDetails() {
       <p>{task.day}</p>
       <Button
         onClick={() => {
-          navigate('/')
+          navigate(-1)
         }}
         text='Go Back'
       />
