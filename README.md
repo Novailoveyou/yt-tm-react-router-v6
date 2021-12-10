@@ -6,6 +6,10 @@ This is me following Brad Traversy's [youtube video](https://youtu.be/k2Zk5cbiZh
 
 Year 2021
 
+## React Router docs
+
+[View React Router docs](https://reactrouter.com/)
+
 ## Original readme
 
 ## React Crash Course 2021 (Task Tracker App)
